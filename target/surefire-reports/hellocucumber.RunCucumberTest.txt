@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: hellocucumber.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.244 s <<< FAILURE! - in hellocucumber.RunCucumberTest
+Examples.Example #1  Time elapsed: 0.09 s  <<< ERROR!
+io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'I ask whether it`s Friday yet' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I ask whether it`s Friday yet")
+public void i_ask_whether_it_s_friday_yet() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Examples.Example #2  Time elapsed: 0.005 s  <<< ERROR!
+io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'I ask whether it`s Friday yet' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I ask whether it`s Friday yet")
+public void i_ask_whether_it_s_friday_yet() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
